@@ -25,6 +25,7 @@ Rails.application.routes.draw do
 
   # Homepage
   root to: 'home#index'
+  get 'zh', to: 'home#index', defaults: { locale: 'zh' }, as: :zh_home
 
   get 'page', to: redirect('/page/1'), as: :page_one
   get 'page/:page', to: 'articles#index', as: :articles

@@ -1,0 +1,84 @@
+zh:
+  '2025':
+    theme: '2025'
+    name: 中文
+    language_direction: ltr
+    site_name: CrimethInc.
+    site_author: CrimethInc. 前工人集体
+
+    head:
+      meta_title: "CrimethInc. 前工人集体：通往自由世界的入口"
+      meta_image_url: https://cdn.crimethinc.com/assets/share/crimethinc-site-share.png
+      meta_description: CrimethInc. 是一个去中心化网络，致力于匿名集体行动。我们努力按照自决和互助的原则重塑我们的生活和世界。
+
+    # terms
+    about:     关于
+    books:     书籍
+    languages: 语言
+    library:   图书馆
+    podcasts:  播客
+    search:    搜索
+    share:     分享
+    store:     商店
+    support:   支持我们
+    tools:     工具
+
+    search_placeholder: 搜索档案…
+
+    mantras:
+      - 若你心自由，你脚下的土地便是解放的领土。捍卫它。
+      - 只有那些准备好走得太远的人，才能发现自己究竟能走多远。
+      - 绝望的措施早该付诸行动。
+      - 即便在火山口，也要守护那颗种子。
+      - 未来被囚禁在你心中——解放它。
+      - 为每一个火药桶点燃一颗火星。
+
+    cards:
+      about:
+        first_time_link: 从这里开始 →
+        more_link: 阅读更多 →
+        search_description: 或者你可以**搜索**跨越二十年的档案。
+        description: |
+          CrimethInc. 是一个反叛联盟——一个致力于匿名集体行动的去中心化网络——一次从当代囚笼中的越狱。
+          我们努力按照自决和互助的原则重塑我们的生活和世界。
+          我们相信你应该自由地按照自己的意愿发挥无限的潜力：
+          任何政府、市场或意识形态都不应该能够决定你的生活可以是什么。
+          如果你同意，_让我们一起做些什么。_
+
+      search:
+        description: 你可以**搜索**跨越二十年的档案。
+
+      share:
+        description: 一切都在共谋压制那些为更美好世界而战之人的声音。帮助我们将这些声音传递给更广泛的受众。
+        facebook: Facebook
+        tumblr:   Tumblr
+        email:    电子邮件
+
+    header:
+      books:     书籍
+      library:   图书馆
+      tools:     工具
+      podcasts:  播客
+      store:     商店
+      about:     关于
+      support:   支持我们
+      languages: 语言
+      search:    搜索
+      share:     分享
+
+    footer:
+      store_description: 书籍、海报、贴纸等……
+      site_mode: 切换到网站精简版 →
+
+      contact:
+        newsletter:
+          heading: 电子邮件更新
+          description: 在此注册以接收定期电子邮件更新。_（由 Mailchimp 处理。）_
+          signup_form_placeholder:        你的电子邮件地址是什么？
+          signup_form_select_placeholder: 你想要多频繁的邮件？
+          signup_form_select_option_lot:    每件小事都要。（很多邮件）
+          signup_form_select_option_little: 只要重要的！（较少邮件）
+          signup_button_text: 注册
+        social:
+          heading: 在其他地方找到我们
+          description: 在以下平台上关注我们的活动。

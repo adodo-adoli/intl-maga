@@ -4,7 +4,7 @@
     <p class='mb-2 pt-5' id='articles'><%= tt :just_published %></p>
 
     <ol class='list-unstyled'>
-      <% just_published_articles.each do |article| %>
+      <% (just_published_articles || []).each do |article| %>
         <li>
           <article class='row mb-4'>
             <div class='col-12 col-md-4 col-lg-4 mb-1'>
@@ -42,7 +42,7 @@
     <p class='mb-2 pt-5' id='recent'><%= tt :recent_articles %></p>
 
     <ol class='list-unstyled'>
-      <% recent_articles.each do |article| %>
+      <% (recent_articles || []).each do |article| %>
         <li class='mb-3'>
           <%= link_to article.path do %>
             <div class='fw-bold'><%= article.title %></div>

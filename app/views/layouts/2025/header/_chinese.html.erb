@@ -1,0 +1,28 @@
+<div id='chinese-card' class='alert alert-warning mb-5 d-none'>
+  <h2 class='visually-hidden'>中文</h2>
+
+  <div class='row'>
+    <div class='col-12 col-md-4 mb-3 mb-md-0'>
+      <p>CrimethInc.</p>
+
+      <p>
+        第一次来这里？
+        <%= link_to '从这里开始 →', '/start', class: 'fw-bold text-uppercase' %>
+      </p>
+
+      <p class='mb-1'>
+        或者你可以<strong>搜索</strong>跨越二十年的档案。
+      </p>
+
+      <%= render 'layouts/2025/site_search' %>
+    </div>
+
+    <div class='col-12 col-md-8'>
+      <p>CrimethInc. 是一个反叛联盟——一个致力于匿名集体行动的去中心化网络——一次从当代囚笼中的越狱。我们努力按照自决和互助的原则重塑我们的生活和世界。我们相信你应该自由地按照自己的意愿发挥无限的潜力：任何政府、市场或意识形态都不应该能够决定你的生活可以是什么。如果你同意，<em>让我们一起做些什么。</em></p>
+
+      <p><%= link_to '阅读更多 →', :about, class: 'text-uppercase fw-bold' %></p>
+
+      <%= link_to 'X', '#' %>
+    </div>
+  </div>
+</div>

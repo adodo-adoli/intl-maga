@@ -60,11 +60,15 @@ class ApplicationController < ActionController::Base
   end
 
   def set_current_locale
-    # Special case language dialect subdomains
-    locale = case request.subdomain.to_s
-             when 'fr-qu',  :'fr-qu'  then :'fr-qu'
-             when 'es-419', :'es-419' then :'es-419'
-             else request.subdomain.to_sym
+    # Allow path-based locale (e.g. /zh) as fallback when no subdomain
+    locale = if request.subdomain.empty? && params[:locale].present?
+               params.expect(:locale).to_sym
+             else
+               case request.subdomain.to_s
+               when 'fr-qu',  :'fr-qu'  then :'fr-qu'
+               when 'es-419', :'es-419' then :'es-419'
+               else request.subdomain.to_sym
+               end
              end
 
     I18n.locale = locale if I18n.available_locales.include?(locale)

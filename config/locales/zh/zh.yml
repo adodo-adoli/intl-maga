@@ -21,22 +21,22 @@ zh:
     meta_description: CrimethInc. is a decentralized network pledged to anonymous collective action. We strive to reinvent our lives and our world according to the principles of self-determination and mutual aid.
 
   header:
-    languages: Languages
-    books: Books
-    library: Library
-    tools: Tools
-    audio: Podcasts
-    video: Video
-    store: Store
-    subscribe: Subscribe
-    support: Support Us
-    search: Search
-    about: About
-    locale_articles: See all articles in Chinese →
-    site_banner: "[Help us recover from the fire that destroyed our mailorder space →](https://www.gofundme.com/f/fire-destroyed-the-crimethinc-mailorder-space)"
+    languages: 语言
+    books: 书籍
+    library: 图书馆
+    tools: 工具
+    audio: 播客
+    video: 视频
+    store: 商店
+    subscribe: 订阅
+    support: 支持我们
+    search: 搜索
+    about: 关于
+    locale_articles: 查看所有中文文章 →
+    site_banner: "[帮助我们从摧毁邮购空间的火灾中恢复 →](https://www.gofundme.com/f/fire-destroyed-the-crimethinc-mailorder-space)"
 
-    first_time: First Time? Start Here →
-    site_mode: Switch to the full version of the site →
+    first_time: 第一次来？从这里开始 →
+    site_mode: 切换到完整版网站 →
 
   search:
     form_placeholder: Search Archives…

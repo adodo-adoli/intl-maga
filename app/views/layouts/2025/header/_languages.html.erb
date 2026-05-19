@@ -17,9 +17,8 @@
         <%# TODO: extract to helper %>
         <% current_locale_classes = 'fw-bold' if locale.abbreviation == String(Current.locale) %>
 
-        <%= link_to locale.name,
-                    url_for_current_path_with_subdomain(subdomain: locale.abbreviation),
-                    class: current_locale_classes %>
+        <% locale_url = locale.abbreviation == 'zh' ? zh_home_path : url_for_current_path_with_subdomain(subdomain: locale.abbreviation) %>
+        <%= link_to locale.name, locale_url, class: current_locale_classes %>
       <% end %>
     <% end %>
   </ol>
