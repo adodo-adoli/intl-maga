@@ -75,4 +75,6 @@ Rails.application.configure do
 
   # For using #url_for et al in non-views/helpers
   Rails.application.routes.default_url_options[:host] = 'localhost:3000'
+
+  config.hosts << 'ba.undocumented.me'
 end
