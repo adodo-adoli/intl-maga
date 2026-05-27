@@ -7,6 +7,8 @@ development:
   <<: *default
   host: localhost
   port: 5433
+  username: root
+  password: yourpassword
   database: crimethinc_development
 
 test:
