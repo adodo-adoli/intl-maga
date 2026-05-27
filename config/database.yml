@@ -6,6 +6,7 @@ default: &default
 development:
   <<: *default
   host: localhost
+  port: 5433
   database: crimethinc_development
 
 test:
